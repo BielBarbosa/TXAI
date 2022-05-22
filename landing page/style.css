@@ -1,11 +1,10 @@
 :root {
-    --cor-menu: (#717171)
-    --cor-texto: (#131313)
+    --cor-menu: (#717171) --cor-texto: (#131313)
 }
 
 body {
     font-family: 'Montserrat', sans-serif;
-   
+
 }
 
 .cabecalho {
@@ -17,11 +16,10 @@ body {
 }
 
 
-
 .menu ul li {
-    
+
     display: inline-block;
-    
+
     padding: 5px;
     margin: 8px;
     font-size: 14px;
@@ -38,12 +36,11 @@ body {
 .submenu {
     background-color: #717171;
     position: absolute;
-    
+
 }
 
 .lista__submenu {
     color: #fff;
-
 }
 
 .botoes__itens {
@@ -51,9 +48,10 @@ body {
     margin: 10px;
 }
 
-.botao__ebook{
+.botao__ebook {
     border: solid 1px #CE2A47;
-    background-color: #CE2A47; ;
+    background-color: #CE2A47;
+    ;
     padding: 6.35px 18.8px;
     border-radius: 10px;
     color: #fff;
@@ -61,16 +59,16 @@ body {
 
 /* SUB-MENU */
 
-.menu ul li  {
+.menu ul li {
     position: relative;
-    display: inline-block; 
+    display: inline-block;
 }
 
 .menu ul ul {
     display: none;
-  position: absolute;
-  min-width: 160px;
-  left: 0;
+    position: absolute;
+    min-width: 160px;
+    left: 0;
 }
 
 .menu ul li:hover ul {
@@ -78,9 +76,9 @@ body {
 
 }
 
-.menu ul li:hover  {
-   font-weight: 700;
-   color:#C91233;
+.menu ul li:hover {
+    font-weight: 700;
+    color: #C91233;
 }
 
 /* MAIN */
@@ -110,7 +108,7 @@ body {
     font-size: 16px;
     color: var(--cor-texto);
     margin: 10px;
-    line-height:30px;
+    line-height: 30px;
 }
 
 .botaoo {
@@ -120,13 +118,14 @@ body {
 
 .botao__principal {
     border: solid 1px #CE2A47;
-    background-color: #CE2A47; ;
+    background-color: #CE2A47;
+    ;
     padding: 6.35px 18.8px;
     border-radius: 10px;
     color: #fff;
     margin-top: 8px;
     text-decoration: none;
-    
+
 }
 
 .faleconosco {
@@ -149,14 +148,14 @@ body {
 }
 
 
-.corpo__baixo .ul  {
+.corpo__baixo .ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-content: stretch;
     align-items: center;
     gap: 50px 100px;
-    margin-top: 750px;   
+    margin-top: 750px;
 }
 
 .corpo__baixo .catalogo {
@@ -191,7 +190,9 @@ body {
     text-decoration: none;
 }
 
-.corpo__baixo h2,.paragrafo__catalogo, a {
+.corpo__baixo h2,
+.paragrafo__catalogo,
+a {
     padding: 15px;
 }
 
@@ -201,25 +202,25 @@ body {
     padding-top: 65px;
 }
 
-.saibamais0{
-    
+.saibamais0 {
+
     margin-left: 206px;
     margin-top: 30px;
 }
 
 /* RODAPE */
 
-.rodape2{
+.rodape2 {
     display: flex;
     justify-content: space-evenly;
     align-items: baseline;
 }
 
 .rodape {
-    
+
     align-items: flex-end;
-   
-    
+
+
     margin-top: 710px
 }
 
@@ -228,12 +229,12 @@ body {
 }
 
 .links__uteis {
-     text-decoration: none;
-     color: var(--cor-texto);
-     line-height: 0;
-     font-size: 12px;
+    text-decoration: none;
+    color: var(--cor-texto);
+    line-height: 0;
+    font-size: 12px;
     font-weight: 300;
-     
+
 }
 
 .divs {
@@ -250,7 +251,7 @@ footer section h3 {
     font-size: 12px;
     font-weight: 700;
     color: var(--cor-texto);
-} 
+}
 
 footer section p {
     font-size: 12px;
@@ -271,11 +272,11 @@ footer section p {
     gap: 36px 0px;
 }
 
-.texto__treinnamentos  {
+.texto__treinnamentos {
     gap: 10px 30px;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    
+
 }
 
 .card {
@@ -286,31 +287,31 @@ footer section p {
 
 
 
-.ul__treinamentos{
+.ul__treinamentos {
 
     border: 1px solid #C91233;
     Width: 380px;
     Height: 380px;
     Top: 774px;
     Left: 125px;
-    
-   margin-left: 0 auto;
+
+    margin-left: 0 auto;
     align-items: center;
 
 }
 
- .h2__treinamentos {
-     font-family: 'Montserrat', sans-serif;
-     font-weight: 700;
-     font-size: 32px;
-     color: var(--cor-texto);
+.h2__treinamentos {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--cor-texto);
     line-height: 160%;
     margin-bottom: 57px;
     margin-bottom: 62px;
 }
 
 
- .paragrafo__treinamentos {
+.paragrafo__treinamentos {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-size: 16px;
@@ -338,8 +339,8 @@ footer section p {
 
 
 .diiv {
-   display: flex;
-   justify-content: space-evenly;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .h5 {
@@ -348,7 +349,7 @@ footer section p {
     font-family: 'Montserrat', sans-serif;
     line-height: 38.5px;
     margin-bottom: 12px;
-} 
+}
 
 .pp {
     font-size: 16px;
@@ -374,10 +375,8 @@ footer section p {
     font-size: 14px;
 }
 
-.p_comentario{
+.p_comentario {
     display: -webkit-box;
     width: 343px;
     height: 100px;
 }
-
-
