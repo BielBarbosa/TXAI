@@ -1,0 +1,40 @@
+.rodape {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.footer {
+    align-items: flex-end;
+    margin-top: 710px
+}
+
+.rodape .links__uteis {
+    display: block;
+}
+
+.links__uteis {
+    text-decoration: none;
+    color: var(--cor-texto);
+    line-height: 0;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.divs {
+    text-align: left;
+}
+
+.rodape__titulo {
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--cor-texto);
+}
+
+
+.rodape__paragrafo{
+    font-size: 12px;
+    font-weight: 300;
+    color: var(--cor-texto);
+}
+
