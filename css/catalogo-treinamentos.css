@@ -1,0 +1,61 @@
+
+.cards__informativos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 1529px;
+    margin: 0 auto;
+    gap: 36px 0px;
+}
+
+.cards {
+    gap: 10px 30px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.card {
+    display: block;
+    gap: 10px 30px;
+}
+
+
+.card__lista {
+    width: 390px;
+    height: 380px;
+    top: 774px;
+    left: 125px;
+    margin-left: 0 auto;
+    align-items: center;
+
+}
+
+.card__titulo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--cor-texto);
+    line-height: 160%;
+    margin-bottom: 57px;
+    margin-bottom: 62px;
+}
+
+
+.card__paragrafo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: var(--cor-texto);
+    line-height: 160%;
+}
+
+.saibamais {
+    font-size: 14px;
+    font-weight: 700;
+    color: #C91233;
+    text-decoration: none;
+    position: absolute;
+    padding-left: 236px;
+    padding-top: 65px;
+}

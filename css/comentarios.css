@@ -1,0 +1,55 @@
+.titulo__comentario {
+    display: block;
+    font-size: 36px;
+    color: #5A5A5A;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+
+
+.comentarios {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.comentario__titulo {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 38.5px;
+    margin-bottom: 12px;
+}
+
+.comentario__paragrafo {
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 160%;
+    margin-bottom: 30px;
+}
+
+
+
+.comentario__lista {
+    width: 300PX;
+    height: 300PX;
+}
+
+
+.saibamais {
+    color: #C91233;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.comentario__pessoa {
+    display: -webkit-box;
+    width: 343px;
+    height: 100px;
+}

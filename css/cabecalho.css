@@ -1,0 +1,79 @@
+
+:root {
+    --cor-menu: (#717171) --cor-texto: (#131313)
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+.menu .lista .lista__itens {
+    display: inline-block;
+    padding: 5px;
+    margin: 8px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+
+
+.menu .lista .lista__itens .lista__link {
+    color: var(--cor-menu);
+    text-decoration: none;
+}
+
+.submenu {
+    background-color: #717171;
+    position: absolute;
+}
+
+.lista__submenu {
+    color: #fff;
+}
+
+.botoes {
+    text-decoration: none;
+    margin: 10px;
+    color: var(--cor-menu);
+}
+
+.ebook {
+    border: solid 1px #CE2A47;
+    background-color: #CE2A47;
+    padding: 6.35px 18.8px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+/* SUB-MENU */
+
+.menu .submenu .lista__submenu {
+    position: relative;
+    display: inline-block;
+}
+
+.menu .lista .submenu {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    left: 0;
+}
+
+.menu .lista .lista__itens:hover .submenu {
+    display: block;
+}
+
+.menu .lista .lista__itens:hover {
+    font-weight: 700;
+    color: #C91233;
+}
