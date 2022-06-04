@@ -6,7 +6,9 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
-    .cabecalho {
+
+
+.cabecalho {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -69,7 +71,6 @@ body {
 
 .menu .lista .lista__itens:hover .submenu {
     display: block;
-
 }
 
 .menu .lista .lista__itens:hover {

@@ -36,13 +36,12 @@
 
 
 .comentario__lista {
-    border: 1px solid red;
     width: 300PX;
     height: 300PX;
 }
 
 
- .saibamais {
+.saibamais {
     color: #C91233;
     text-decoration: none;
     font-weight: 700;

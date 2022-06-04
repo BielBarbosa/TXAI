@@ -1,8 +1,8 @@
 
 
 .catalogo {
-    Width: 1440px;
-    Height: 900px;
+    width: 1440px;
+    height: 900px;
     margin: auto;
     align-items: center;
     display: flex;
@@ -60,7 +60,6 @@
 .carde__paragrafo,
 .saibamais {
     padding: 15px;
-
 }
 
 .saibamais{

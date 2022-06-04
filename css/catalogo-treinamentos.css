@@ -21,14 +21,11 @@
 }
 
 
-
 .card__lista {
-
-    border: 1px solid #C91233;
-    Width: 380px;
-    Height: 380px;
-    Top: 774px;
-    Left: 125px;
+    width: 390px;
+    height: 380px;
+    top: 774px;
+    left: 125px;
     margin-left: 0 auto;
     align-items: center;
 
