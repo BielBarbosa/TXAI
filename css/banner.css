@@ -42,10 +42,10 @@
 .botao__principal {
     border: solid 1px #CE2A47;
     background-color: #CE2A47;
-    padding: 6.35px 18.8px;
+    padding: 6px 18px;
     border-radius: 10px;
     color: #fff;
-    margin-top: 8px;
+    margin: 8px 0 0 0;
     text-decoration: none;
     font-size: 14px;
 }
@@ -57,7 +57,3 @@
     left: auto;
     right: 24px;
 }
-
-
-
-

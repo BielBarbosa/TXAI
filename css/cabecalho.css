@@ -1,4 +1,3 @@
-
 :root {
     --cor-menu: (#717171) --cor-texto: (#131313)
 }
@@ -12,8 +11,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin: 15px 0;
 }
 
 
@@ -50,7 +48,7 @@ body {
 .ebook {
     border: solid 1px #CE2A47;
     background-color: #CE2A47;
-    padding: 6.35px 18.8px;
+    padding: 6px 18px;
     border-radius: 10px;
     color: #fff;
 }
