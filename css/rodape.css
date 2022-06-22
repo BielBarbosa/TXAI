@@ -6,10 +6,10 @@
 
 .footer {
     align-items: flex-end;
-    margin-top: 710px
+    margin: 110px 0 0 0;
 }
 
-.rodape .links__uteis {
+.links__uteis {
     display: block;
 }
 
@@ -32,9 +32,8 @@
 }
 
 
-.rodape__paragrafo{
+.rodape__paragrafo {
     font-size: 12px;
     font-weight: 300;
     color: var(--cor-texto);
 }
-
